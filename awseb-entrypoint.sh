@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# @Author: Andres Montoya
+# Copyright (c) 2020, codehunters.io
 
 set -o errexit
 set -o pipefail

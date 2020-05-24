@@ -1,6 +1,6 @@
 FROM openjdk:8-alpine
 
-LABEL Maintainer="andres.montoya@codehunters.io"
+LABEL Maintainer="andres@codehunters.io"
 LABEL Description="Docker image for AWS Beanstalk deployment with Gradle and AWS S3" Vendor="Codehunters IO" Version="1.0"
 
 ARG GRADLE_VERSION=6.2.2
