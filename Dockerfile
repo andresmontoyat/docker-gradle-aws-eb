@@ -3,7 +3,7 @@ FROM openjdk:8-alpine
 LABEL Maintainer="andres@codehunters.io"
 LABEL Description="Docker image for AWS Beanstalk deployment with Gradle and AWS S3" Vendor="Codehunters IO" Version="1.0"
 
-ARG GRADLE_VERSION=6.6.1
+ARG GRADLE_VERSION=6.7.1
 ARG GRADLE_BASE_URL=https://services.gradle.org/distributions
 ARG GRADLE_SHA=7873ed5287f47ca03549ab8dcb6dc877ac7f0e3d7b1eb12685161d10080910ac
 ARG AWS_VERSION=1.18.26
