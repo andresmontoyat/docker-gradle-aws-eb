@@ -1,23 +1,22 @@
 # Gradle deploy to AWS Beanstalk
-
-Docker image for AWS Beanstalk deployment with gradle and AWS S3
+Docker image for AWS Beanstalk deployment with gradle
 
 ## Getting Started
 These instructions will cover usage information and for the docker container
 
-### Prerequisities
-
-Under construction
-
 ### Usage
+This is a basic example for deploy jar application into AWS Elastic Beanstalk:
 
-Under construction
+```bash
+export AWSEB_RELEASE_VERSION="my-app-1.0.0-RELEASE.jar"
+export LOCALDIR_RELEASE_VERSION="./build/libs/my-app-1.0.0-RELEASE.jar"
 
-#### Container Parameters
-
-Under construction
+awseb
+```
 
 #### Environment Variables
+To deploy  the artifact the following variables are needed:
+
 ```bash
  AWSEB_APP_NAME: - AWS Elastickbeastalk application name
  AWSEB_ENV_NAME: - AWS Elastickbeastalk environment name
@@ -28,22 +27,13 @@ Under construction
 ```
 
 ## Find Us
-
 https://codehunters.io
 
 ## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
     * Andrés Montoya - (https://andres.codehunters.io)
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-Under construction
