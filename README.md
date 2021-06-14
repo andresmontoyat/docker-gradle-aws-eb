@@ -30,10 +30,10 @@ To deploy  the artifact the following variables are needed:
 https://codehunters.io
 
 ## Contributing
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/andresmontoyat/docker-gradle-aws-eb/blob/develop/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
     * Andrés Montoya - (https://andres.codehunters.io)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/andresmontoyat/docker-gradle-aws-eb/blob/develop/README.md) file for details
