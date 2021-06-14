@@ -5,7 +5,7 @@ LABEL Description="Docker image for AWS Beanstalk deployment with Gradle" Vendor
 
 ARG GRADLE_VERSION=7.0.2
 ARG GRADLE_BASE_URL=https://services.gradle.org/distributions
-ARG GRADLE_SHA=7873ed5287f47ca03549ab8dcb6dc877ac7f0e3d7b1eb12685161d10080910ac
+ARG GRADLE_SHA=0e46229820205440b48a5501122002842b82886e76af35f0f3a069243dca4b3c
 ARG AWS_VERSION=1.19.93
 
 RUN apk add --no-cache curl tar bash procps coreutils
